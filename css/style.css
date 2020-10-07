@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul,li{
+    list-style: none;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+}
+
+a{
+    margin: 30px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu h2 , ul {
+    margin-top: 10px;
+}
+
+.principal{
+  height: 100vh;
+}
+
+
+
+nav{
+    font-weight: bold;
+}
+
+
+
+.box-title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.title h3 {
+    background-color: #002984;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.content{
+    height: 100vh;
+    text-align: center;    
+    margin-top: 50px;
+    
+}
+
+
+.sobre{
+    height:221px;
+    width:903px;
+    margin: 0 auto;
+box-shadow: -10px 10px 10px rgba(0,0,0,0.3);
+
+}
+
+.sobre h1 {
+    font-size: 30px;
+    background-color: #002984;
+
+}
+
+.sobre h3,h2{
+    font-weight: 400 ;
+    margin-top: 20px;
+}
+
+.sobre i {
+    font-size: 30px;
+    margin: 20px;
+}
+
+
+.about {
+
+    width: 854px;
+    height:160px ;
+    
+}
+
+.about h1{
+    font-size: 30px;
+}
+
+
+.about h3 {
+    font-weight: 400 ;
+    margin-top: 20px;
+}
+
+.about div{
+    margin-top: 30px;
+}
+
+span{
+    background-color: #002984;
+}
