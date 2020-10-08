@@ -7,9 +7,10 @@
 
 }
 
-ul,li{
+ul,li,a{
     list-style: none;
     text-decoration: none;
+
 }
 
 ul{
@@ -44,6 +45,7 @@ body{
 
 nav{
     font-weight: bold;
+    color: black;
 }
 
 
